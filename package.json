@@ -1,0 +1,20 @@
+{
+  "name": "najm-yemen-auth",
+  "version": "1.0.0",
+  "description": "نظام توثيق نجم اليمن عبر الواتساب",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "@hapi/boom": "^10.0.1",
+    "firebase-admin": "^11.11.1",
+    "express": "^4.18.2",
+    "pino": "^8.16.1",
+    "link-preview-js": "^3.0.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
